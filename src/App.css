@@ -1,0 +1,5 @@
+.table :where(th, td) {
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: var(--fallback-bc, oklch(var(--bc) / var(--tw-border-opacity)));
+}
